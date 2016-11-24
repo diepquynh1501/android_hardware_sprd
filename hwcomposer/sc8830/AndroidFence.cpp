@@ -39,7 +39,7 @@
 #include <hardware/hardware.h>
 #include <ion/ion.h>
 #include <linux/ion.h>
-#include "ion_sprd.h"
+#include "ion.h"
 #include "AndroidFence.h"
 #include <cutils/log.h>
 #include "SprdDisplayDevice.h"

@@ -28,20 +28,6 @@ struct ion_handle;
 
 namespace android {
 
-#ifndef SCX30G_V2
-enum ION_MASTER_ID {
-	ION_GSP = 0,
-	ION_MM,
-	/*for whale iommu*/
-	ION_VSP,
-	ION_DCAM,
-	ION_DISPC,
-	ION_GSP0,
-	ION_GSP1,
-	ION_VPP,
-};
-#endif
-
 // ---------------------------------------------------------------------------
 
 class MemoryHeapIon: public RefBase
